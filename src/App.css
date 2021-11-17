@@ -1,5 +1,20 @@
+
+@font-face {
+  font-family: 'UbuntuMonoRegular';
+  src: local('UbuntuMonoRegular'), url('./fonts/UbuntuMono-Regular.ttf') format("truetype");
+}
+
+@font-face {
+  font-family: 'UbuntuMonoBold';
+  src:  local('UbuntuMonoBold'), url('./fonts/UbuntuMono-Bold.ttf') format("truetype");
+}
+
 .App {
   text-align: center;
+  font-family: 'UbuntuMonoRegular';
+  font-size: 16px;
+  height: 100vh;
+  background: black;
 }
 
 .App-logo {

@@ -1,0 +1,11 @@
+{
+  "commands": [
+    "apt-get read profile :: Show the profile information",
+    "apt-get read skills :: Show the skills",
+    "apt-get read experience :: Show the experience",
+    "apt-get read profile_image :: Show the worker image",
+    "apt-set language <en/es/de>",
+    "apt-get read all"
+  ]
+}
+

@@ -1,0 +1,64 @@
+{
+  "profile": "'I'm a highly skilled web developer who offers a combination of cross-functional skills, including a 7+ years work experience in front-end development, focusing in Javascript based solutions. Also, I has extensive experience working with Javascript frameworks as Angular 2 and ReactJS, and front-end technologies as HTML5, CSS3, Bootstrap and LESS. I also enjoys working with server-side languages as NodeJs, having vast experience with frameworks as ExpressJs and phpSlim. CMSs like Wordpress, and creating REST APIs. My expertise includes gathering and analyzing project requirements, Lead Teams and integrating solutions architecture and design using Object Oriented Techniques.",
+  "skills": ["Javascript ( Angular2, ReactJS, jQuery, D3)","Dart, Flutter, Ionic 2","Ruby on rails","HTML5, CSS3, LESS, Bootstrap"," PHP,phpSlim"," API Development, LoopBack"," MySQL, MongoDB, PostgreSQL","Wordpress (Site Building and Theming)","Docker,Kubernetes,Vagrant","Jira, Git, Gulp, Trello, Scrum, KanBan","Test case planning, Robot Framework, Selenium Webdriver and Mocha"],
+  "experience": [
+    {
+      "date": "2015-Current",
+      "title": "experience",
+      "company_name": "Jobsity",
+      "country": "USA",
+      "city": "NY",
+      "position": "Front/Back-End Developer ",
+      "tasks": [
+        "Development and Maintenance of multiple sites using React Js for Dom&Tom",
+        "Planning and Schedule developers Tasks",
+        "Develop of Api Rest Endpoints using Express Js And Loopback ",
+        "Maintenance of Angular 2 Applications ",
+        "Develop Chart D3 components for React Components "
+      ]
+    },
+    {
+      "date": "2014 - 2015",
+      "title": "experience",
+      "company_name": "Webcreek",
+      "country": "USA",
+      "city": "Houston",
+      "position": "Senior Front-end Developer",
+      "tasks": [
+        "Development and bug fixing for Tractfile Contract Management Software using Angular2(http://webcreek.com/products/tractfile/)",
+        "Development of oil companies websites using Angular, HTML5 and CSS3",
+        "Development and maintenance of financial modules using Angular 2 for ERP System ● Creation and integration of automated test scripts using Selenium",
+        "Maintenance of Wordpress sites ",
+        "Developed and maintained ERP modules based in ReactJs.",
+        "Developed React web applications.",
+        "Automated test cases using Selenium Webdriver. "
+      ]
+    },
+    {
+      "date": "2011 - 2014",
+      "title": "experience",
+      "company_name": "Icogroup",
+      "country": "USA",
+      "city": "Miami",
+      "position": "Mid-Level Full Stack Developer",
+      "tasks": [
+        "Development of Android Apps (https://play.google.com/store/apps/details?id=com.icogroup.apensar&hl=es) ",
+        "Development of Android Apps (https://play.google.com/store/apps/details?id=com.icogroup.libros_en_un_click&hl=es)",
+        "API Rest Development using PHP/Laravel (Whilo App Proyect: https://gitlab.com/casanova-vitae/whilo-webservices.git)",
+        "Development of Univision TV Show website using AngularJs"
+      ]
+    },
+    {
+      "date": "2009 - 2011",
+      "title": "experience",
+      "company_name": "Chacao Town Hall ",
+      "country": "Venezuela",
+      "city": "Ccs",
+      "position": "Front-End Developer",
+      "tasks": [
+        "Development and maintenance of websites using HTML5, CSS3, Javascript, jQuery (http://chacao.gob.ve)",
+        "Development of several websites for government and private institutions using Wordpress "
+      ]
+    }
+  ]
+}
