@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './fonts/UbuntuMono-Regular.ttf';
-import './index.css';
-import App from './App';
+import Main from './components/main/index'
 import reportWebVitals from './reportWebVitals';
+import './fonts/UbuntuMono-Regular.ttf';
+import './index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Main />
   </React.StrictMode>,
   document.getElementById('root')
 );
