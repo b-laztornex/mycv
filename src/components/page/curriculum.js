@@ -45,7 +45,6 @@ const Curriculum = (props) => {
         </Row>
       </Container>
     </InformationBox>
-    
   )
 }
 export default Curriculum;
