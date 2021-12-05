@@ -30,7 +30,7 @@ class MainPage extends React.Component {
   constructor(props) {
     super(props);
     this.handleLanguageChange = this.handleLanguageChange.bind(this);
-    this.renderMainView = this.renderMainView.bind(this);
+    this.renderLoading = this.renderLoading.bind(this);
     this.renderHeaderOptions = this.renderHeaderOptions.bind(this);
     
     this.state = {
@@ -59,7 +59,14 @@ class MainPage extends React.Component {
         }
       }
     }
-    this.setState({isLoading: false})
+    setTimeout(
+      function() {
+        this.setState({isLoading: false})
+      }
+      .bind(this),
+      4000
+    );
+    
   }
 
   componentWillUnmount() {
@@ -77,66 +84,60 @@ class MainPage extends React.Component {
     }
   }
 
-  renderMainView(){
+  renderLoading(){
     if(this.state.isLoading){
       return <Loader/>
-    }else{
-      return(
-        <div>
-          <div>
- 
-          </div>
-          <NavBarHeader>
-            <Navbar bg="light" expand="lg">
-              <Container>
-                <Navbar.Brand href="#home">
-                  <ReactToPrint
-                      trigger={() => {
-                        // NOTE: could just as easily return <SomeComponent />. Do NOT pass an `onClick` prop
-                        // to the root node of the returned component as it will be overwritten.
-                        return <div className="menu-header-option">CV Download <FontAwesomeIcon icon={faFileDownload} size="1x"/></div>
-                      }}
-                      content={() => this.componentRef}
-                    />
-                </Navbar.Brand>
-                
-                <Navbar.Toggle />
-                <Navbar.Collapse className="justify-content-end">
-                  <Navbar.Text>
-                    {this.renderMenuHeaderOptions()}
-                  </Navbar.Text>
-                  
-                  <ReactCountryFlag countryCode={this.state.language.flag} svg style={{width: '2em',height: '2em',}} title={this.state.language.ln}/>
-                  <NavDropdown title="">
-                      <NavDropdown.Item>
-                        <ReactCountryFlag onClick={() => { this.handleLanguageChange('de','de') }} countryCode="DE" svg style={{width: '2em',height: '2em',}} title="DE" aria-label="United States"/>
-                      </NavDropdown.Item>
-                      <NavDropdown.Item>
-                        <ReactCountryFlag onClick={() => { this.handleLanguageChange('es','ve') }} countryCode="VE" svg style={{width: '2em',height: '2em',}}title="ES"/>
-                      </NavDropdown.Item>
-                      <NavDropdown.Item>
-                        <ReactCountryFlag onClick={() => { this.handleLanguageChange('en','us') }} countryCode="US" svg style={{width: '2em',height: '2em',}}title="EN"/>
-                      </NavDropdown.Item>
-                    </NavDropdown>
-                </Navbar.Collapse>
-              </Container>
-            </Navbar>
-          </NavBarHeader>
-          <Header>
-            <IntroVideo src={video_url} autoPlay loop playsInline muted>
-              Tu navegador no admite el elemento <code>video</code>.
-            </IntroVideo>
-            {this.renderHeaderOptions()}
-          </Header>
-          <Curriculum ref={el => (this.componentRef = el)} info={this.state.content}/>
-        </div>
-      )
     }
   }
 
   render() {
     return(
-      <div>{this.renderMainView()}</div>
+      <div>
+        <div>{this.renderLoading()}</div>
+        <NavBarHeader>
+          <Navbar bg="light" expand="lg">
+            <Container>
+              <Navbar.Brand href="#home">
+                <ReactToPrint
+                    trigger={() => {
+                      // NOTE: could just as easily return <SomeComponent />. Do NOT pass an `onClick` prop
+                      // to the root node of the returned component as it will be overwritten.
+                      return <div className="menu-header-option">CV Download <FontAwesomeIcon icon={faFileDownload} size="1x"/></div>
+                    }}
+                    content={() => this.componentRef}
+                  />
+              </Navbar.Brand>
+              
+              <Navbar.Toggle />
+              <Navbar.Collapse className="justify-content-end">
+                <Navbar.Text>
+                  {this.renderMenuHeaderOptions()}
+                </Navbar.Text>
+                
+                <ReactCountryFlag countryCode={this.state.language.flag} svg style={{width: '2em',height: '2em',}} title={this.state.language.ln}/>
+                <NavDropdown title="">
+                    <NavDropdown.Item>
+                      <ReactCountryFlag onClick={() => { this.handleLanguageChange('de','de') }} countryCode="DE" svg style={{width: '2em',height: '2em',}} title="DE" aria-label="United States"/>
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                      <ReactCountryFlag onClick={() => { this.handleLanguageChange('es','ve') }} countryCode="VE" svg style={{width: '2em',height: '2em',}}title="ES"/>
+                    </NavDropdown.Item>
+                    <NavDropdown.Item>
+                      <ReactCountryFlag onClick={() => { this.handleLanguageChange('en','us') }} countryCode="US" svg style={{width: '2em',height: '2em',}}title="EN"/>
+                    </NavDropdown.Item>
+                  </NavDropdown>
+              </Navbar.Collapse>
+            </Container>
+          </Navbar>
+        </NavBarHeader>
+        <Header>
+          <IntroVideo src={video_url} autoPlay loop playsInline muted>
+            Tu navegador no admite el elemento <code>video</code>.
+          </IntroVideo>
+          {this.renderHeaderOptions()}
+        </Header>
+        <Curriculum ref={el => (this.componentRef = el)} info={this.state.content}/>
+      </div>
     )
   }
 }

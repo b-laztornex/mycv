@@ -75,5 +75,20 @@
         "Development of several websites for government and private institutions using Wordpress "
       ]
     }
+  ],
+  "education": [
+    {
+      "date": "2009 - 2011",
+      "title": "experience",
+      "company_name": "Chacao Town Hall ",
+      "country": "Venezuela",
+      "city": "Ccs",
+      "position": "Front-End Developer",
+      "tasks": [
+        "Development and maintenance of websites using HTML5, CSS3, Javascript, jQuery (http://chacao.gob.ve)",
+        "Development of several websites for government and private institutions using Wordpress "
+      ]
+    }
+
   ]
 }
