@@ -3,6 +3,21 @@
   "skills": ["Javascript ( Angular2, ReactJS, jQuery, D3)","Dart, Flutter, Ionic 2","Ruby on rails","HTML5, CSS3, LESS, Bootstrap"," PHP,phpSlim"," API Development, LoopBack"," MySQL, MongoDB, PostgreSQL","Wordpress (Site Building and Theming)","Docker,Kubernetes,Vagrant","Jira, Git, Gulp, Trello, Scrum, KanBan","Test case planning, Robot Framework, Selenium Webdriver and Mocha"],
   "experience": [
     {
+      "date": "2019-Current",
+      "title": "experience",
+      "company_name": "C85",
+      "country": "Germany",
+      "city": "Munich",
+      "position": "Full-Stack Developer ",
+      "tasks": [
+        "Api creation in Ruby on Rails",
+        "Update Legacy Systems",
+        "Develop of Apps using Fluttern ",
+        "Maintenance of Angular 2 Applications ",
+        "Develop Chart D3 components for React Components "
+      ]
+    },
+    {
       "date": "2015-Current",
       "title": "experience",
       "company_name": "Jobsity",

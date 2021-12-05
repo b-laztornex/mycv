@@ -1,7 +1,8 @@
 import React from 'react'
+import ReactToPrint from 'react-to-print';
 import {NavBarHeader, Header, IntroVideo, MenuCenter,IconBorder} from './styles'
 import ReactCountryFlag from "react-country-flag"
-import Curriculum from './curriculum'
+import {Curriculum} from './curriculum'
 import Loader from './loader'
 import HeaderOptions from './header_options'
 import MenuHeaderOptions from './menu_header_options'
@@ -17,6 +18,7 @@ import { Code } from '../console/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBriefcase, faWrench, faUserTie, faBook, faTerminal, faFileDownload} from '@fortawesome/free-solid-svg-icons'
 
+const ref = React.createRef();
 const video_url = `${process.env.PUBLIC_URL}/video/intro.mp4`;
 
 const file_ln = {
@@ -24,8 +26,7 @@ const file_ln = {
   en: require('../../data/cv_en.json'),
   de: require('../../data/cv_de.json')
 };
-
-class Page extends React.Component {
+class MainPage extends React.Component {
   constructor(props) {
     super(props);
     this.handleLanguageChange = this.handleLanguageChange.bind(this);
@@ -82,15 +83,29 @@ class Page extends React.Component {
     }else{
       return(
         <div>
+          <div>
+ 
+          </div>
           <NavBarHeader>
             <Navbar bg="light" expand="lg">
               <Container>
-                <Navbar.Brand href="#home">Marco Casanova</Navbar.Brand>
+                <Navbar.Brand href="#home">
+                  <ReactToPrint
+                      trigger={() => {
+                        // NOTE: could just as easily return <SomeComponent />. Do NOT pass an `onClick` prop
+                        // to the root node of the returned component as it will be overwritten.
+                        return <div className="menu-header-option">CV Download <FontAwesomeIcon icon={faFileDownload} size="1x"/></div>
+                      }}
+                      content={() => this.componentRef}
+                    />
+                </Navbar.Brand>
+                
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                   <Navbar.Text>
                     {this.renderMenuHeaderOptions()}
                   </Navbar.Text>
+                  
                   <ReactCountryFlag countryCode={this.state.language.flag} svg style={{width: '2em',height: '2em',}} title={this.state.language.ln}/>
                   <NavDropdown title="">
                       <NavDropdown.Item>
@@ -113,7 +128,7 @@ class Page extends React.Component {
             </IntroVideo>
             {this.renderHeaderOptions()}
           </Header>
-          <Curriculum info={this.state.content}/>
+          <Curriculum ref={el => (this.componentRef = el)} info={this.state.content}/>
         </div>
       )
     }
@@ -126,4 +141,4 @@ class Page extends React.Component {
   }
 }
 
-export default Page;
+export default MainPage;

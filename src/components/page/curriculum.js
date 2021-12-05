@@ -1,9 +1,11 @@
+import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import {InformationBox, StyledLeftCol, StyledRightCol} from './styles'
 
-const Curriculum = (props) => {
+export const Curriculum = React.forwardRef((props, ref) => {
+  
   const skillList = props.info.skills.map((skill,i) =>
     <p>᳁ {skill}</p>
   );
@@ -14,7 +16,7 @@ const Curriculum = (props) => {
     </div>
   );
   return (
-    <InformationBox>
+    <InformationBox ref={ref}>
       <Container>
         <Row>
           <StyledLeftCol xs={4}>
@@ -46,8 +48,4 @@ const Curriculum = (props) => {
       </Container>
     </InformationBox>
   )
-}
-export default Curriculum;
-
-
-
+})

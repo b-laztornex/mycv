@@ -1,6 +1,6 @@
 import React from 'react'
 import SelectionScreen from './selection_screen';
-import Page from '../page/index';
+import MainPage from '../page/index';
 import Console from '../console/index';
 
 class Main extends React.Component {
@@ -19,7 +19,7 @@ class Main extends React.Component {
       console.log(this.state.view);
       switch(this.state.view){
         case 1:
-          return <Page viewChange={this.handleViewChange} />;
+          return <MainPage viewChange={this.handleViewChange} />;
         case 2:
           return <Console viewChange={this.handleViewChange}/>;
         default:

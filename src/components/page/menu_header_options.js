@@ -9,7 +9,6 @@ const MenuHeaderOptions = ({viewChange}) => {
       <div className="menu-header-option"><FontAwesomeIcon icon={faBriefcase} size="1x"/></div>
       <div className="menu-header-option"><FontAwesomeIcon icon={faBook} size="1x"/></div>
       <div className="menu-header-option"><FontAwesomeIcon icon={faUserTie} size="1x"/></div>
-      <div className="menu-header-option"><FontAwesomeIcon icon={faFileDownload} size="1x"/></div>
       <div className="menu-header-option"><FontAwesomeIcon icon={faTerminal} size="1x" onClick={()=>{viewChange(2)}}/></div>
     </MenuHeaderBar>
   )
