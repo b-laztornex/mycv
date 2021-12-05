@@ -1,4 +1,10 @@
 {
+  "translations":{
+    "skills": "Habilidades",
+    "profile": "Perfil",
+    "experience": "Experiencia",
+    "education": "Educación"
+  },
   "profile": "Soy un desarrollador web altamente cualificado que ofrece una combinación de habilidades transversales, incluyendo una experiencia de trabajo de más de 7 años en el desarrollo front-end, centrándose en soluciones basadas en Javascript. Además, tengo amplia experiencia trabajando con frameworks Javascript como Angular 2 y ReactJS, y tecnologías front-end como HTML5, CSS3, Bootstrap y LESS. También me gusta trabajar con lenguajes del lado del servidor como NodeJs, teniendo amplia experiencia con frameworks como ExpressJs y phpSlim. CMSs como Wordpress, y la creación de APIs REST. Mi experiencia incluye la recopilación y el análisis de los requisitos del proyecto, liderando equipos e integrando la arquitectura y el diseño de soluciones utilizando técnicas orientadas a objetos.",
   "skills": ["Javascript ( Angular2, ReactJS, jQuery, D3)","Dart, Flutter, Ionic 2","Ruby on rails","HTML5, CSS3, LESS, Bootstrap"," PHP,phpSlim"," API Development, LoopBack"," MySQL, MongoDB, PostgreSQL","Wordpress (Site Building and Theming)","Docker,Kubernetes,Vagrant","Jira, Git, Gulp, Trello, Scrum, KanBan","Test case planning, Robot Framework, Selenium Webdriver and Mocha"],
   "experience": [

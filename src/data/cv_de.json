@@ -1,20 +1,56 @@
 {
-  "profile": "Ich bin ein hochqualifizierter Webentwickler, der eine Kombination aus funktionsübergreifenden Fähigkeiten bietet, einschließlich einer mehr als 7-jährigen Berufserfahrung in der Frontend-Entwicklung, mit Schwerpunkt auf Javascript-basierten Lösungen. Außerdem habe ich umfangreiche Erfahrung in der Arbeit mit Javascript-Frameworks wie Angular 2 und ReactJS und Frontend-Technologien wie HTML5, CSS3, Bootstrap und LESS. Ich arbeite auch gerne mit serverseitigen Sprachen wie NodeJs und habe große Erfahrung mit Frameworks wie ExpressJs und phpSlim. CMSs wie Wordpress und die Erstellung von REST APIs. Zu meinen Fachkenntnissen gehören das Erfassen und Analysieren von Projektanforderungen, die Leitung von Teams und die Integration von Lösungsarchitektur und -design unter Verwendung objektorientierter Techniken.",
-  "skills": ["Javascript ( Angular2, ReactJS, jQuery, D3)","Dart, Flutter, Ionic 2","Ruby on rails","HTML5, CSS3, LESS, Bootstrap"," PHP,phpSlim"," API Development, LoopBack"," MySQL, MongoDB, PostgreSQL","Wordpress (Site Building and Theming)","Docker,Kubernetes,Vagrant","Jira, Git, Gulp, Trello, Scrum, KanBan","Test case planning, Robot Framework, Selenium Webdriver and Mocha"],
+  "translations":{
+    "skills": "Fähigkeiten",
+    "profile": "Profil",
+    "experience": "Erfahrung",
+    "education": "Ausbildung"
+  },
+  "profile": "Ich bin ein hochqualifizierter Webentwickler, der eine Kombination aus funktionsübergreifenden Fähigkeiten bietet, einschließlich einer über 13-jährigen Berufserfahrung in der Frontend-Entwicklung mit Schwerpunkt auf Javascript-basierten Lösungen. Außerdem habe ich umfangreiche Erfahrung in der Arbeit mit Javascript-Frameworks wie Angular 2 und ReactJS und Front-End-Technologien wie HTML5, CSS3, Bootstrap und LESS. Ich arbeite auch gerne mit serverseitigen Sprachen wie NodeJs und habe umfangreiche Erfahrung mit Frameworks wie ExpressJs und phpSlim. CMSs wie Wordpress und das Erstellen von REST-APIs. Meine Expertise umfasst das Sammeln und Analysieren von Projektanforderungen, das Führen von Teams und die Integration von Lösungsarchitektur und -design mit objektorientierten Techniken.",
+  "skills": ["Javascript( Angular2, ReactJS, jQuery, D3)","Dart, Flutter, Ionic 2","Ruby on rails","HTML5, CSS3, LESS, Bootstrap"," PHP,phpSlim"," API Development, LoopBack"," MySQL, MongoDB, PostgreSQL","Wordpress (Site-Building und Theming)","Docker,Kubernetes,Vagrant","Jira, Git, Gulp, Trello, Scrum, KanBan","Testfallplanung, Robot Framework, Selenium Webdriver and Mocha"],
   "experience": [
     {
-      "date": "2015-Current",
+      "date": "2019-Aktuell",
+      "title": "experience",
+      "company_name": "C85",
+      "country": "Deutschland",
+      "city": "München",
+      "position": "Full-Stack Entwickler",
+      "tasks": [
+        "API-Erstellung in Ruby on Rails",
+        "Altsysteme aktualisieren",
+        "Entwicklung mobiler Anwendungen mit Fluttern",
+        "Entwicklung von Spielen mit Unity 3D",
+        "Verbesserung und Refactoring von Modulen zur Geschwindigkeitsverbesserung und Sicherheitsupdates" 
+      ]
+    },
+    {
+      "date": "2018-2019",
       "title": "experience",
       "company_name": "Jobsity",
       "country": "USA",
       "city": "NY",
-      "position": "Front/Back-End Developer ",
+      "position": "Front/Back-End Entwickler",
       "tasks": [
-        "Development and Maintenance of multiple sites using React Js for Dom&Tom",
-        "Planning and Schedule developers Tasks",
-        "Develop of Api Rest Endpoints using Express Js And Loopback ",
-        "Maintenance of Angular 2 Applications ",
-        "Develop Chart D3 components for React Components "
+        "Entwicklung und Wartung mehrerer Sites mit React Js für Zebra",
+        "Planen und Planen von Entwickleraufgaben",
+        "Entwicklung von API-Rest-Endpunkten mit Express Js und Loopback",
+        "Wartung von Angular 2-Anwendungen",
+        "Entwickeln Sie Chart D3-Komponente"
+      ]
+    },
+    {
+      "date": "2016-2018",
+      "title": "experience",
+      "company_name": "DOm&Tom",
+      "country": "USA",
+      "city": "NY",
+      "position": "Front end Entwickler",
+      "tasks": [
+        "Entwicklung und Wartung mehrerer Sites mit React Js für Zebra",
+        "Planen und Planen von Entwickleraufgaben",
+        "Entwicklung von API-Rest-Endpunkten mit Express Js und Loopback",
+        "Wartung von Angular 2-Anwendungen",
+        "Entwickeln Sie Chart D3-Komponente"
       ]
     },
     {
@@ -25,13 +61,13 @@
       "city": "Houston",
       "position": "Senior Front-end Developer",
       "tasks": [
-        "Development and bug fixing for Tractfile Contract Management Software using Angular2(http://webcreek.com/products/tractfile/)",
-        "Development of oil companies websites using Angular, HTML5 and CSS3",
-        "Development and maintenance of financial modules using Angular 2 for ERP System ● Creation and integration of automated test scripts using Selenium",
-        "Maintenance of Wordpress sites ",
-        "Developed and maintained ERP modules based in ReactJs.",
-        "Developed React web applications.",
-        "Automated test cases using Selenium Webdriver. "
+        "Entwicklung und Fehlerbehebung für Tractfile Contract Management Software mit Angular2(http://webcreek.com/products/tractfile/)",
+        "Entwicklung von Websites von Ölgesellschaften mit Angular, HTML5 und CSS3",
+        "Entwicklung und Wartung von Finanzmodulen mit Angular 2 für ERP-System ● Erstellung und Integration von automatisierten Testskripten mit Selenium",
+        "Pflege von Wordpress-Sites",
+        "Entwickelte und gewartete ERP-Module auf Basis von ReactJs.",
+        "Entwickelte React-Webanwendungen.",
+        "Automatisierte Testfälle mit Selenium Webdriver."
       ]
     },
     {
@@ -42,10 +78,10 @@
       "city": "Miami",
       "position": "Mid-Level Full Stack Developer",
       "tasks": [
-        "Development of Android Apps (https://play.google.com/store/apps/details?id=com.icogroup.apensar&hl=es) ",
-        "Development of Android Apps (https://play.google.com/store/apps/details?id=com.icogroup.libros_en_un_click&hl=es)",
-        "API Rest Development using PHP/Laravel (Whilo App Proyect: https://gitlab.com/casanova-vitae/whilo-webservices.git)",
-        "Development of Univision TV Show website using AngularJs"
+        "Entwicklung von Android-Apps (https://play.google.com/store/apps/details?id=com.icogroup.apensar&hl=es)",
+        "Entwicklung von Android-Apps (https://play.google.com/store/apps/details?id=com.icogroup.libros_en_un_click&hl=es)",
+        "API-Rest-Entwicklung mit PHP/Laravel (Whilo App Proyect: https://gitlab.com/casanova-vitae/whilo-webservices.git)",
+        "Entwicklung der Univision TV-Show-Website mit AngularJs"
       ]
     },
     {
@@ -56,9 +92,29 @@
       "city": "Ccs",
       "position": "Front-End Developer",
       "tasks": [
-        "Development and maintenance of websites using HTML5, CSS3, Javascript, jQuery (http://chacao.gob.ve)",
-        "Development of several websites for government and private institutions using Wordpress "
+        "Entwicklung und Pflege von Websites mit HTML5, CSS3, Javascript, jQuery (http://chacao.gob.ve)",
+        "Entwicklung mehrerer Websites für staatliche und private Institutionen mit Wordpress"
       ]
+    }
+  ],
+  "education": [
+    {
+      "date": "2017",
+      "title": "The Complete React Learning Course",
+      "academy": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-IT738EQ7/"
+    },
+    {
+      "date": "2016",
+      "title": "Technical​ ​Certification​ ​on​ ​Web​ ​Development​ ​Technologies",
+      "academy": "Uneweb",
+      "url": "https://www.uneweb.edu.ve"
+    },
+    {
+      "date": "2008-2013",
+      "title": "Computer Science Degree ",
+      "academy": "Universidad Central of Venezuela",
+      "url": "http://www.ucv.ve/"
     }
   ]
 }

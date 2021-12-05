@@ -1,6 +1,12 @@
 {
-  "profile": "'I'm a highly skilled web developer who offers a combination of cross-functional skills, including a 7+ years work experience in front-end development, focusing in Javascript based solutions. Also, I has extensive experience working with Javascript frameworks as Angular 2 and ReactJS, and front-end technologies as HTML5, CSS3, Bootstrap and LESS. I also enjoys working with server-side languages as NodeJs, having vast experience with frameworks as ExpressJs and phpSlim. CMSs like Wordpress, and creating REST APIs. My expertise includes gathering and analyzing project requirements, Lead Teams and integrating solutions architecture and design using Object Oriented Techniques.",
-  "skills": ["Javascript ( Angular2, ReactJS, jQuery, D3)","Dart, Flutter, Ionic 2","Ruby on rails","HTML5, CSS3, LESS, Bootstrap"," PHP,phpSlim"," API Development, LoopBack"," MySQL, MongoDB, PostgreSQL","Wordpress (Site Building and Theming)","Docker,Kubernetes,Vagrant","Jira, Git, Gulp, Trello, Scrum, KanBan","Test case planning, Robot Framework, Selenium Webdriver and Mocha"],
+  "translations":{
+    "skills": "Skills",
+    "profile": "Profile",
+    "experience": "Experience",
+    "education": "Education"
+  },
+  "profile": "'I'm a highly skilled web developer who offers a combination of cross-functional skills, including a 13+ years work experience in front-end development, focusing in Javascript based solutions. Also, I has extensive experience working with Javascript frameworks as Angular 2 and ReactJS, and front-end technologies as HTML5, CSS3, Bootstrap and LESS. I also enjoys working with server-side languages as NodeJs, having vast experience with frameworks as ExpressJs and phpSlim. CMSs like Wordpress, and creating REST APIs. My expertise includes gathering and analyzing project requirements, Lead Teams and integrating solutions architecture and design using Object Oriented Techniques.",
+  "skills": ["Javascript( Angular2, ReactJS, jQuery, D3)","Dart, Flutter, Ionic 2","Ruby on rails","HTML5, CSS3, LESS, Bootstrap"," PHP,phpSlim"," API Development, LoopBack"," MySQL, MongoDB, PostgreSQL","Wordpress (Site Building and Theming)","Docker,Kubernetes,Vagrant","Jira, Git, Gulp, Trello, Scrum, KanBan","Test case planning, Robot Framework, Selenium Webdriver and Mocha"],
   "experience": [
     {
       "date": "2019-Current",
@@ -12,18 +18,33 @@
       "tasks": [
         "Api creation in Ruby on Rails",
         "Update Legacy Systems",
-        "Develop of Apps using Fluttern ",
-        "Maintenance of Angular 2 Applications ",
-        "Develop Chart D3 components for React Components "
+        "Develop of Mobile Applications using Fluttern",
+        "Develop of games using Unity 3D",
+        "Improvement and refactor of modules for speed improvement and security updates"
       ]
     },
     {
-      "date": "2015-Current",
+      "date": "2018-2019",
       "title": "experience",
       "company_name": "Jobsity",
       "country": "USA",
       "city": "NY",
       "position": "Front/Back-End Developer ",
+      "tasks": [
+        "Development and Maintenance of multiple sites using React Js for Dom&Tom",
+        "Planning and Schedule developers Tasks",
+        "Develop of Api Rest Endpoints using Express Js And Loopback ",
+        "Maintenance of Angular 2 Applications ",
+        "Develop Chart D3 components for React Components "
+      ]
+    },
+    {
+      "date": "2016-2018",
+      "title": "experience",
+      "company_name": "DOm&Tom",
+      "country": "USA",
+      "city": "NY",
+      "position": "Front end Developer",
       "tasks": [
         "Development and Maintenance of multiple sites using React Js for Dom&Tom",
         "Planning and Schedule developers Tasks",
@@ -78,17 +99,22 @@
   ],
   "education": [
     {
-      "date": "2009 - 2011",
-      "title": "experience",
-      "company_name": "Chacao Town Hall ",
-      "country": "Venezuela",
-      "city": "Ccs",
-      "position": "Front-End Developer",
-      "tasks": [
-        "Development and maintenance of websites using HTML5, CSS3, Javascript, jQuery (http://chacao.gob.ve)",
-        "Development of several websites for government and private institutions using Wordpress "
-      ]
+      "date": "2017",
+      "title": "The Complete React Learning Course",
+      "academy": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-IT738EQ7/"
+    },
+    {
+      "date": "2016",
+      "title": "Technical​ ​Certification​ ​on​ ​Web​ ​Development​ ​Technologies",
+      "academy": "Uneweb",
+      "url": "https://www.uneweb.edu.ve"
+    },
+    {
+      "date": "2008-2013",
+      "title": "Computer Science Degree ",
+      "academy": "Universidad Central of Venezuela",
+      "url": "http://www.ucv.ve/"
     }
-
   ]
 }
