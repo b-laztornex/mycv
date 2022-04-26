@@ -5,16 +5,46 @@
     "experience": "Experiencia",
     "education": "Educación"
   },
-  "profile": "Soy un desarrollador web altamente cualificado que ofrece una combinación de habilidades transversales, incluyendo una experiencia de trabajo de más de 7 años en el desarrollo front-end, centrándose en soluciones basadas en Javascript. Además, tengo amplia experiencia trabajando con frameworks Javascript como Angular 2 y ReactJS, y tecnologías front-end como HTML5, CSS3, Bootstrap y LESS. También me gusta trabajar con lenguajes del lado del servidor como NodeJs, teniendo amplia experiencia con frameworks como ExpressJs y phpSlim. CMSs como Wordpress, y la creación de APIs REST. Mi experiencia incluye la recopilación y el análisis de los requisitos del proyecto, liderando equipos e integrando la arquitectura y el diseño de soluciones utilizando técnicas orientadas a objetos.",
-  "skills": ["Javascript ( Angular2, ReactJS, jQuery, D3)","Dart, Flutter, Ionic 2","Ruby on rails","HTML5, CSS3, LESS, Bootstrap"," PHP,phpSlim"," API Development, LoopBack"," MySQL, MongoDB, PostgreSQL","Wordpress (Site Building and Theming)","Docker,Kubernetes,Vagrant","Jira, Git, Gulp, Trello, Scrum, KanBan","Test case planning, Robot Framework, Selenium Webdriver and Mocha"],
+  "profile": "Soy un desarrollador web altamente calificado que ofrece una combinación de habilidades multifuncionales, que incluyen más de 13 años de experiencia laboral en desarrollo front-end, centrándome en soluciones basadas en Javascript. Además, tengo una amplia experiencia trabajando con frameworks Javascript como Angular 2 y ReactJS, y tecnologías front-end como HTML5, CSS3, Bootstrap y LESS.También disfruto trabajar con lenguajes del lado del servidor como NodeJs, tengo amplia experiencia con frameworks como ExpressJs y phpSlim.CMSs como Wordpress, y creación de API REST. Mi experiencia incluye la recopilación y el análisis de los requisitos del proyecto, los equipos líderes y la integración de la arquitectura y el diseño de soluciones utilizando técnicas orientadas a objetos",
+  "skills": ["Javascript( Angular2, ReactJS, jQuery, D3)","Dart, Flutter, Ionic 2","Ruby on rails","HTML5, CSS3, LESS, Bootstrap"," PHP,phpSlim"," API Development, LoopBack"," MySQL, MongoDB, PostgreSQL","Wordpress (Site Building and Theming)","Docker,Kubernetes,Vagrant","Jira, Git, Gulp, Trello, Scrum, KanBan","Test case planning, Robot Framework, Selenium Webdriver and Mocha"],
   "experience": [
     {
-      "date": "2015-Current",
+      "date": "2019-Current",
+      "title": "experience",
+      "company_name": "C85",
+      "country": "Germany",
+      "city": "Munich",
+      "position": "Full-Stack Developer ",
+      "tasks": [
+        "Api creation in Ruby on Rails",
+        "Update Legacy Systems",
+        "Develop of Mobile Applications using Fluttern",
+        "Develop of games using Unity 3D",
+        "Improvement and refactor of modules for speed improvement and security updates"
+      ]
+    },
+    {
+      "date": "2018-2019",
       "title": "experience",
       "company_name": "Jobsity",
       "country": "USA",
       "city": "NY",
       "position": "Front/Back-End Developer ",
+      "tasks": [
+        "Development and Maintenance of multiple sites using React Js for Dom&Tom",
+        "Planning and Schedule developers Tasks",
+        "Develop of Api Rest Endpoints using Express Js And Loopback ",
+        "Maintenance of Angular 2 Applications ",
+        "Develop Chart D3 components for React Components "
+      ]
+    },
+    {
+      "date": "2016-2018",
+      "title": "experience",
+      "company_name": "DOm&Tom",
+      "country": "USA",
+      "city": "NY",
+      "position": "Front end Developer",
       "tasks": [
         "Development and Maintenance of multiple sites using React Js for Dom&Tom",
         "Planning and Schedule developers Tasks",
@@ -65,6 +95,26 @@
         "Development and maintenance of websites using HTML5, CSS3, Javascript, jQuery (http://chacao.gob.ve)",
         "Development of several websites for government and private institutions using Wordpress "
       ]
+    }
+  ],
+  "education": [
+    {
+      "date": "2017",
+      "title": "The Complete React Learning Course",
+      "academy": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-IT738EQ7/"
+    },
+    {
+      "date": "2016",
+      "title": "Technical​ ​Certification​ ​on​ ​Web​ ​Development​ ​Technologies",
+      "academy": "Uneweb",
+      "url": "https://www.uneweb.edu.ve"
+    },
+    {
+      "date": "2008-2013",
+      "title": "Computer Science Degree ",
+      "academy": "Universidad Central of Venezuela",
+      "url": "http://www.ucv.ve/"
     }
   ]
 }

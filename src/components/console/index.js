@@ -102,7 +102,7 @@ class Console extends React.Component {
           To update your account to use zsh, please run `chsh -s /bin/zsh`.
           For more details, please visit https://support.apple.com/kb/HT208050.
           ____________________________________________________________________
-          -l list all comands
+          type 'help' to get a list of all comands
         </Title>
         <Terminal >
           {listItems}
