@@ -95,11 +95,6 @@ class Console extends React.Component {
 
     return (
       <Wrapper>
-        <div className="parallax-box">
-          <div id="stars"></div>
-          <div id="stars2"></div>
-          <div id="stars3"></div>
-        </div>
         <Player url="../music/another_world_remix.mp3"/>
         <Title>
           Last login: Thu Nov 11 11:07:51 on ttys002

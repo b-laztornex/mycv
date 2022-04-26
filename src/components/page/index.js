@@ -6,17 +6,11 @@ import {Curriculum} from './curriculum'
 import Loader from './loader'
 import HeaderOptions from './header_options'
 import MenuHeaderOptions from './menu_header_options'
-import Toast from 'react-bootstrap/Toast';
 import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
-import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import { Code } from '../console/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBriefcase, faWrench, faUserTie, faBook, faTerminal, faFileDownload} from '@fortawesome/free-solid-svg-icons'
+import { faFileDownload} from '@fortawesome/free-solid-svg-icons'
 
 const ref = React.createRef();
 const video_url = `${process.env.PUBLIC_URL}/video/intro.mp4`;
@@ -32,6 +26,7 @@ class MainPage extends React.Component {
     this.handleLanguageChange = this.handleLanguageChange.bind(this);
     this.renderLoading = this.renderLoading.bind(this);
     this.renderHeaderOptions = this.renderHeaderOptions.bind(this);
+    this.renderMenuHeaderOptions = this.renderMenuHeaderOptions.bind(this);
     
     this.state = {
       isLoading: true,

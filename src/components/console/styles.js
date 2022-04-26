@@ -1,9 +1,11 @@
 import styled from 'styled-components';
 const Wrapper = styled.div`
   padding: 4em;
+  background: black;
   font-size: 14px;
   background: black;
   min-height: 100vh;
+  height: 100%;
 `;
 const Terminal = styled.ul`
   color: white;
@@ -42,11 +44,13 @@ const SubTitle = styled.h6`
   text-transform: uppercase;
 `;
 const UnicodeImage = styled.div`
- width: 549px;
+ width: 410px;
  height: 400px;
  color: LimeGreen;
  background-color: rgba(255, 255, 255, 0.1);
  padding: 20px;
  text-align: center;
+ font-size: 10px;
+ text-align: left;
 `;
 export { Wrapper, Terminal, Title, Marker, Code, Information, SubTitle, UnicodeImage };

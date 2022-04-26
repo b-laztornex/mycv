@@ -25,21 +25,21 @@ export const Curriculum = React.forwardRef((props, ref) => {
     <InformationBox ref={ref}>
       <Container>
         <Row>
-          <StyledLeftCol xs={4}>
+          <StyledLeftCol xs={12} md={4}>
             <h4>{props.info.translations.skills}</h4>
             <hr/>
             <p>
               {skillList}
             </p>
-            <h4>{props.info.translations.profile}</h4>
+            <h4>{props.info.translations.education}</h4>
             <hr/>
             {educationList}
           </StyledLeftCol>
-          <Col xs={8}>
+          <Col xs={12} md={8}>
             <Container>
               <Row>
                 <StyledRightCol xs={12}>
-                <h4>{props.info.translations.education}</h4>
+                <h4>{props.info.translations.profile}</h4>
                 <hr/>
                 <p>
                   {props.info.profile}
@@ -53,6 +53,18 @@ export const Curriculum = React.forwardRef((props, ref) => {
               </Row>
             </Container>
           </Col>
+        </Row>
+        <Row>
+          <Col xs={12} md={8}>
+            <p>Contact Form</p>
+          </Col>
+          <Col xs={12} md={8}>
+            <input type="text" placeholder="email"/>
+          </Col>
+          <Col xs={12} md={8}>
+            <textarea placehodler="inquery"></textarea>
+          </Col>
+
         </Row>
       </Container>
     </InformationBox>
